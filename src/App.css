@@ -20,3 +20,38 @@
   .port-btn { grid-area: 1 / 3 / 2 / 4; }
   .blog-btn { grid-area: 1 / 4 / 2 / 5; }
   .contact-btn { grid-area: 1 / 5 / 2 / 6; }
+
+.abt-icon {
+  background: aqua;
+  padding: 25px;
+  border-radius: 50%;
+  display:block;
+  width:150px;
+  height:150px;
+  align-items: center;
+  margin: auto;
+}
+
+.abt-icon-svg {
+  margin: auto;
+}
+
+.abt-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 100px;
+  grid-row-gap: 0px;
+  margin: auto;
+  width: 80%;
+  }
+
+.abt-1 { grid-area: 1 / 1 / 3 / 2; text-align: center;}
+.abt-1-icon { grid-area: 1 / 1 / 2 / 2; margin: auto;  }
+.abt-1-text { grid-area: 2 / 1 / 3 / 2; }
+.abt-2 { grid-area: 1 / 2 / 3 / 3; text-align: center;}
+.abt-2-icon { grid-area: 1 / 2 / 2 / 3; }
+.abt-2-text { grid-area: 2 / 2 / 3 / 3; }
+.abt-3 { grid-area: 1 / 3 / 3 / 4; text-align: center;}
+.abt-3-icon { grid-area: 1 / 3 / 2 / 4; }
+.abt-3-text { grid-area: 2 / 3 / 3 / 4; }
